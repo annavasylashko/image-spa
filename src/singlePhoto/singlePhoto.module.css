@@ -1,0 +1,20 @@
+.singlePhotoContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+}
+
+.singlePhotoContainer img {
+  width: 40vw;
+}
+.singlePhotoTitles {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 10px;
+}
+
+.singlePhotoTitles * {
+  left: 0;
+  text-align: left;
+}

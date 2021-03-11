@@ -1,0 +1,19 @@
+.albumContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+
+.albumTitles {
+  padding-left: 30px;
+}
+
+.albumTitles * {
+  left: 0;
+  text-align: left;
+}
+.albumPhotoContainer {
+  width: 30vw;
+}
